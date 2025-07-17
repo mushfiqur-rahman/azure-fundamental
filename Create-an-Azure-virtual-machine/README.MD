@@ -12,6 +12,8 @@ mushfiqur-rahman [ ~ ]$ az vm show \
 20.245.142.194
 ```
 
+> N.B Don't copy paste. **resource-group** name should be your's. Here, I am using mine.
+
 ### SSH into the VM
 
 ```bash
