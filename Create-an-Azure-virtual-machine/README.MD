@@ -4,12 +4,11 @@
 
 ```bash
 mushfiqur-rahman [ ~ ]$ az vm show \
-  --resource-group "learn-57256d73-61a0-4aa4-96ef-2e9103ce51c7" \
+  --resource-group "learn-d38d3411-0b33-4628-ab4b-a6961289da3a" \
   --name my-vm \
   --show-details \
   --query publicIps \
   --output tsv
-20.245.142.194
 ```
 
 > N.B Don't copy paste. **resource-group** name should be your's. Here, I am using mine.
