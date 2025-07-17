@@ -1,5 +1,7 @@
 ## After applied the 3.14 [command](https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/3-exercise-create-azure-virtual-machine), you need to use below command
 
+## Get the VM’s public IP
+
 ```bash
 mushfiqur-rahman [ ~ ]$ az vm show \
   --resource-group "learn-57256d73-61a0-4aa4-96ef-2e9103ce51c7" \
@@ -9,6 +11,8 @@ mushfiqur-rahman [ ~ ]$ az vm show \
   --output tsv
 20.245.142.194
 ```
+
+### SSH into the VM
 
 ```bash
 mushfiqur-rahman [ ~ ]$ ssh azureuser@20.245.142.194
@@ -21,6 +25,8 @@ azureuser@my-vm:~$ man sudo_root
 ```bash
 azureuser@my-vm:~$ sudo su
 ```
+
+### [configure-nginx.sh](https://raw.githubusercontent.com/MicrosoftDocs/mslearn-welcome-to-azure/master/configure-nginx.sh) command
 
 ```bash
 root@my-vm:/home/azureuser# sudo apt-get update
